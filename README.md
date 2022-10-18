@@ -1,2 +1,4 @@
 # Stock-Analysis
-A VBA script that will analyze data on different stocks from Excel with the years separated into different sheets
+A VBA script that will analyze data on different stocks from Excel with the years separated into different sheets in an Excel file. This [script](https://github.com/wawilson810/Stock-Analysis/blob/main/VBA/stock_analysis.bas) will loop through all of the different stocks for each of the years and display each unique ticker in a new column. For each ticker; it will calculate the Yearly Change in its value and display that next to the ticker symbol with the cell colored red if the yearly change is negative and green if it is positive, calculate and display the percentage change and calculate the Total Stock Volume for the year. The script will also find which stocks had the greatest percentage increase, percentage decrease and total volume for the year and display that. An example of the output can be seen below.
+
+![Example Output](https://github.com/wawilson810/Stock-Analysis/blob/main/Resources/Analysis%20Examples/2018%20Data.png)
